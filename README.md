@@ -1,6 +1,6 @@
-# Spin Official Website
+# Dogex Official Website
 
-This is a readme file for Spin Token
+This is a readme file for Dogex
 
 ## Technologies used
 
@@ -17,7 +17,7 @@ This is a readme file for Spin Token
 
 ## Website Preview
 
-#### Mobile Preview
+#### Desktop Preview
 
 
 ![alt text](https://github.com/Arc9067/dogex/blob/main/Screenshots/1.png?raw=true)
@@ -28,4 +28,4 @@ This is a readme file for Spin Token
 
 ### Link to website Preview
 
-[Link to site](https://scintillating-trifle-137195.netlify.app)
+[Link to site](https://golden-starlight-c31e58.netlify.app)
