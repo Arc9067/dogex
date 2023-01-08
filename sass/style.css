@@ -62,7 +62,7 @@ fonts
 
 body {
   font-family: var(--ff-secondary);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/patterns/homebg.png) no-repeat;
+  background: linear-gradient(rgba(147, 204, 205, 0.966), rgba(1, 83, 73, 0.932));
   background-size: cover;
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -282,6 +282,8 @@ Header Styling
      object-fit: cover;
   min-height: 100vh;
   width: 100%;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
 }
 .home .in-home {
   width: 100%;
@@ -327,6 +329,70 @@ Header Styling
 }
 .home .in-home .homebtn button:hover {
   box-shadow: var(--dark-shadow);
+}
+
+.tokenomics {
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 5rem;
+}
+.tokenomics .in-tokenomics {
+  width: 100%;
+  height: 100%;
+}
+.tokenomics .in-tokenomics .tkn-txt {
+  padding: 0 2rem;
+  display: grid;
+  align-content: center;
+  text-align: center;
+}
+.tokenomics .in-tokenomics .tkn-txt h2 {
+  font-family: integral;
+  font-size: 2rem;
+  color: var(--clr-white);
+  text-transform: uppercase;
+}
+.tokenomics .in-tokenomics .tkn-txt h2 span {
+  display: inline-block;
+  padding: 0.5 1rem;
+  border-radius: 30px;
+  color: #ffd02d;
+  display: grid;
+  place-items: center;
+  text-transform: none;
+}
+.tokenomics .in-tokenomics .tkn-txt p {
+  max-width: 25rem;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.tokenomics .in-tokenomics .tkn-des {
+  height: 50%;
+  width: 100%;
+  background-color: red;
+  display: grid;
+  place-items: center;
+}
+.tokenomics .in-tokenomics .tkn-des .token-d {
+  min-width: 20rem;
+  max-width: 25rem;
+  min-height: 15rem;
+  background-color: black;
+}
+.tokenomics .in-tokenomics .tkn-des .token-d h3 {
+  text-align: center;
+  color: var(--clr-white);
+}
+.tokenomics .in-tokenomics .tkn-des .token-d .tkn-info {
+  background-color: red;
+}
+.tokenomics .in-tokenomics .tkn-des .token-d .tkn-info .tkn-minfo {
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 
 @media (min-width: 500px) {
